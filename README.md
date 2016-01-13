@@ -1,5 +1,7 @@
 # Windows client for home-dashboard
 
+This windows client is used on [home-dashboard](https://github.com/Hekku2/home-dashboard)
+
 ## What is it
 Purpose of the client is to report sensor values to backend.
 
