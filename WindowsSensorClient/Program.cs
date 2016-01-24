@@ -15,6 +15,13 @@ namespace WindowsSensorClient
 
         public static void Main(string[] args)
         {
+            //No arguments are currently read when ran in service mode.
+            if (!Environment.UserInteractive)
+            {
+                ServiceBase.Run(new SensorMonitoringService());
+                return;
+            }
+
             if (Parser.Default.ParseArguments(args, Options))
             {
                 _output = new ProgramOutput(Options);
@@ -48,14 +55,6 @@ namespace WindowsSensorClient
             {
                 _output = new ConsoleOutput();
             }
-
-
-            if (!Environment.UserInteractive)
-            {
-                ServiceBase.Run(new SensorMonitoringService());
-                return;
-            }
-
             _output.Print(Options.GetUsage());
         }
 
