@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Home Dashboard Sensor Clients")]
-[assembly: AssemblyDescription("Monitors temperature values and sends them to Home Dashboard server.")]
+[assembly: AssemblyTitle("WindowsSensorClientTests")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WindowsSensorClient")]
+[assembly: AssemblyProduct("WindowsSensorClientTests")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("16d8a81d-6ea4-4f20-845b-6e07f1804ee0")]
+[assembly: Guid("a7236af7-dae8-4fe2-b38f-d2d4c663b1ea")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -3,3 +3,5 @@
 /WindowsSensorClient.v12.suo
 /WindowsSensorClient.sln.DotSettings.user
 /packages
+/WindowsSensorClientTests/obj
+/WindowsSensorClientTests/bin

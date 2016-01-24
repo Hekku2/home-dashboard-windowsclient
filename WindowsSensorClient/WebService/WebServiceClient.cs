@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace WindowsSensorClient
+namespace WindowsSensorClient.WebService
 {
     public sealed class WebServiceClient : IDisposable
     {

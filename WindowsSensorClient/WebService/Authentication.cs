@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace WindowsSensorClient
+namespace WindowsSensorClient.WebService
 {
     public class Authentication
     {
